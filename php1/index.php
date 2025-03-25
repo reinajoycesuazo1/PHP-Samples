@@ -14,60 +14,40 @@
     <h1>PHP Output No. 1</h1>
     
     <fieldset>
-        <legend>This form uses GET request</legend>
-        <form action="redirect.php" method="GET">
-        <table>
-            <tr>
-                <td>First Name</td>
-                <td>
-                    <input type="text" name="fname" placeholder="Enter First Name" required />
-                </td>
-            </tr>
-            <tr>
-                <td>Middle Name</td>
-                <td>
-                    <input type="text" name="mname" placeholder="Enter Middle Name" required />
-                </td>
-            </tr>
-            <tr>
-                <td>Last Name</td>
-                <td>
-                    <input type="text" name="lname" placeholder="Enter Last Name" required />
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <input type="submit" value="Submit Data">
-                    <input type="reset" value="Cancel">
-                </td>
-            </tr>
-        </table>
-        </form>
-    </fieldset>
-    
-    <fieldset style="margin-top: 20px">
         <legend>This form uses POST request</legend>
         <form action="redirect.php" method="POST">
         <table>
             <tr>
-                <td>First Name</td>
+                <td>Age</td>
                 <td>
-                    <input type="text" name="fname" placeholder="Enter First Name" required />
+                    <input type="number" name="age" placeholder="Enter Age" required />
                 </td>
             </tr>
             <tr>
-                <td>Middle Name</td>
+                <td>Gender</td>
                 <td>
-                    <input type="text" name="mname" placeholder="Enter Middle Name" required />
+                    <input type="text" name="gender" placeholder="Enter your Gender" required />
                 </td>
             </tr>
+            
             <tr>
-                <td>Last Name</td>
+                <td>Email</td>
                 <td>
-                    <input type="text" name="lname" placeholder="Enter Last Name" required />
+                    <input type="text" name="email" placeholder="Enter your Email" required />
                 </td>
-            </tr>
+
+                <tr>
+                <td>Address</td>
+                <td>
+                    <input type="text" name="Address" placeholder="Enter your Address" required />
+                </td>
+
+                <tr>
+                <td>Contact Number</td>
+                <td>
+                    <input type="number" name="Contact Number" placeholder="Enter your Contact Number" required />
+                </td>
+                </tr>
             <tr>
                 <td></td>
                 <td>
@@ -78,6 +58,5 @@
         </table>
         </form>
     </fieldset>
-
 </body>
 </html>
